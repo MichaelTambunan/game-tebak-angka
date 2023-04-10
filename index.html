@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tebak Angka</title>
+		<link rel="stylesheet" href="index.css" />
+		<script src="teba angka1.js"></script>
+	</head>
+	<body>
+		<h1>Tebak Angka</h1>
+		<p>Silakan masukkan angka antara 1 dan 10:</p>
+		<input type="number" id="guess-input" />
+		<button id="guess-btn" onclick="guessNumber()">Tebak</button>
+		<br />
+		<p>angka yang telah anda tebak <span id="guess-count">0</span> kali:</p>
+		<p id="guesses"></p>
+		<p id="result"></p>
+		<br />
+		<button onclick="newGame()">Mulai Game Baru</button>
+	</body>
+</html>
